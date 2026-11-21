@@ -1,0 +1,20 @@
+{
+  "Instructor": {
+    "Shipwreck.ClusteredDebris": 475023,
+    "Shipwreck.StrongFalseLeads": 525045,
+    "Shipwreck.WeakWreckSignal": 440919,
+    "Shipwreck.SingleApproachTrail": 480719,
+    "Shipwreck.VariedWreckSites": 513206,
+    "Shipwreck.ExhaustiveSearch": 482407,
+    "Shipwreck.ManyRobotsSearch": 14914835
+  },
+  "Round Robin": {
+    "Shipwreck.ClusteredDebris": 438949,
+    "Shipwreck.StrongFalseLeads": 470267,
+    "Shipwreck.WeakWreckSignal": 403313,
+    "Shipwreck.SingleApproachTrail": 431173,
+    "Shipwreck.VariedWreckSites": 438967,
+    "Shipwreck.ExhaustiveSearch": 358977,
+    "Shipwreck.ManyRobotsSearch": 9706865
+  }
+}
