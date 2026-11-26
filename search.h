@@ -9,6 +9,9 @@
 
 #include "mothership.h"
 #include "seafloor_survey.h"
+#include <vector>
+#include <queue>
+#include <unordered_set>
 
 // #include "examples/robot_selector.h" // EXAMPLE
 
@@ -24,8 +27,12 @@ private:
 
   SeafloorSurvey seafloorSurvey; // OPTIONAL
 
+  std::vector<int> LastSafeSegment;
+
   // int robotsExplored = 0; // EXAMPLE
   // RobotSelector robotSelector; // EXAMPLE
 
   // bool isReachable(int robot) const; // EXAMPLE
+
+  
 };

@@ -5,19 +5,18 @@
 #pragma once
 
 #include <vector>
-
 #include "mothership.h"
 
 class SeafloorSurvey
 {
 public:
   void recordDebris(Location location);
-  int getSignalStrength(Location location) const;
+  int getSignalStrength(Location location, int RobotCount) const;
 
   // bool hasDebris() const; // EXAMPLE
 
 private:
-  std::vector<Location> debrisLocations; // TOY APPROACH
+  std::vector<std::vector<int>> debrisbyRobot; // TOY APPROACH
 
   // int discoveriesRecorded = 0; // EXAMPLE
 };
